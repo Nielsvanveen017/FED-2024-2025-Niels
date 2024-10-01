@@ -246,6 +246,7 @@ nav a svg{
     width: 1.5rem;
 }
 
+
 nav a svg:first-child{
     height: 1.75rem;
     width: 1.75rem;
@@ -499,6 +500,9 @@ footer ul li{
     width: fit-content;
 }
 
+.hero-section div a:focus{
+    background-color: aqua;
+}
 
 
 
@@ -580,6 +584,9 @@ footer ul li{
     text-decoration: none;
 }
 
+.large-button:focus{
+    background-color: aqua;   
+}
 
 
 

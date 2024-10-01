@@ -390,7 +390,28 @@ Ik begon met het doen van de toegankelijkheidstest voor de homepage. Hierop bego
 Na de test met de screenreader ben ik gaan kijken naar de WCAG checklist:
 - De inhoud van een button, a en label zijn uniek en beschrijvend
 - Er is gebruik gemaakt van de juiste uitlijning
-- 
+- Nadat ik m'n code heb laten valideren heb ik nog 2 foutjes eruit gehaald: dubbele role toegevoegd en een href op een img gezet
+- Ik heb gebruik gemaakt van een lang element (en), ook al m'n code staat in het Engels
+- Beide pagina's hebben een duidelijke en unieke titel
+- Er is gebruik gemaakt van belangrijke langmarkelementen, zoals nav, main en een footer
+- Er is gebruik gemaakt van de juiste tab index
+- Er is geen gebruik gemaakt van auto focus
+- Er is wel gebruik gemaakt van het title element
+- Alle img elementen hebben een duidelijk alt kenmerk
+- Ik heb geen afbeeldingen gebruikt die geen informatie die nodig is om de algemene betekenis van de website te begrijpen 
+- Er is 1 h1 element gebruikt
+- Er zijn geen kopniveaus overgeslagen
+- De kopelementen zijn in logische volgorde geschreven
+- Er zijn geen focusstijlen toeggevoegd aan interactieve elementen
+- Er is geen skiplink toegevoegd in de navigatie
+- Er is geen transcriptie bij het geluid dat te horen is bij het switchen van een thema, omdat dit decoratief is
+- Er is gebruik gemaakt van reduced motion
+- De website heeft het juiste contrast
+
+Uit deze test bleek dat ik nog twee dingen moest toevoegen aan m'n code:
+- Focus state op knoppen en links
+- Skip link in nav
+
 
 </details>
 
