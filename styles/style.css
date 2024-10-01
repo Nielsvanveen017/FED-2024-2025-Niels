@@ -220,6 +220,20 @@ header{
     z-index: 10; /* Verhoog de z-index om het boven de afbeelding te plaatsen */
 }
 
+.skip-link{
+    position: absolute;
+    top: -40px; /* Verberg de link buiten het zicht */
+    left: 0;
+    background-color: #000; /* Achtergrondkleur */
+    color: #fff; /* Tekstkleur */
+    padding: 8px 16px; /* Ruimte rond de tekst */
+    z-index: 100; /* Zorg ervoor dat de link boven andere elementen staat */
+}
+
+.skip-link:focus {
+    top: 10px; /* Zet de link in zicht wanneer deze de focus heeft */
+}
+
 nav{
     background-color: var(--nav-color);
     min-height: 70px;
